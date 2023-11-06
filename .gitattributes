@@ -1,0 +1,8 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+dados/SP/*.csv filter=lfs diff=lfs merge=lfs -text
+dados/Saude/*.csv filter=lfs diff=lfs merge=lfs -text
+dados/Saude/SIM/*.csv filter=lfs diff=lfs merge=lfs -text
+dados/** filter=lfs diff=lfs merge=lfs -text
+dados/SP/** filter=lfs diff=lfs merge=lfs -text
+dados/Saude/** filter=lfs diff=lfs merge=lfs -text
+dados/Saude/SIM/** filter=lfs diff=lfs merge=lfs -text
